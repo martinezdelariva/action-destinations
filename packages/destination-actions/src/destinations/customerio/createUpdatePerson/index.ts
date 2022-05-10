@@ -13,7 +13,6 @@ const action: ActionDefinition<Settings, Payload> = {
       description:
         'The ID used to uniquely identify a person in Customer.io. [Learn more](https://customer.io/docs/identifying-people/#identifiers).',
       type: 'string',
-      required: true,
       default: {
         '@path': '$.userId'
       }
